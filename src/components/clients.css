@@ -1,0 +1,134 @@
+*{
+    font-weight:bold;
+    font-family:Lucida Handwriting; 
+}
+.clients{
+    background-color:white;
+    height:45vh;
+
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow:hidden;
+}
+.carousel{
+
+    color:blue;
+    height: 100%;
+    width:90%;
+
+    
+}
+
+.box{
+    background-color: transparent;
+    height:35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:center center;
+    
+}
+img{
+    height:100%;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.box h3{
+    text-align: center;
+
+}
+.slick-slide div{
+    margin:0 3px;
+
+}
+.slick-next{
+    right:-30px !important;
+}
+.slick-prev{
+    left:-37px !important;
+}
+
+h2{
+    
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(179, 172, 172);
+    color:var(--color1);
+}
+.slick-dots li.slick-active button:before{
+    color:black;
+    font-size:10px;
+}
+.slick-dots li button:before{
+
+    font-size:10px !important;
+}
+
+button.slick-arrow.slick-next::before,button.slick-arrow.slick-prev::before{
+    font-size:30px;
+    color:black;
+}
+#hair1{
+    background-image: url('../images/hair11a.PNG'); /* Set the initial image */
+}
+#hair1:hover{
+    background-image: url('../images/hair11b.PNG'); /* Set the hover image */
+}
+#hair2{
+    background-image: url('../images/hair10a.PNG'); /* Set the initial image */
+}
+#hair2:hover{
+    background-image: url('../images/hair10b.PNG'); /* Set the hover image */
+}
+#hair3{
+    background-image: url('../images/hair13a.PNG'); /* Set the initial image */
+}
+#hair3:hover{
+    background-image: url('../images/hair13b.PNG'); /* Set the hover image */
+}
+#hair4{
+    background-image: url('../images/hair9a.PNG'); /* Set the initial image */
+}
+#hair4:hover{
+    background-image: url('../images/hair9b.PNG'); /* Set the hover image */
+}
+#hair5{
+    background-image: url('../images/hair14a.PNG'); /* Set the initial image */
+}
+#hair5:hover{
+    background-image: url('../images/hair14b.PNG'); /* Set the hover image */
+}
+#hair6{
+    background-image: url('../images/hair7a.PNG'); /* Set the initial image */
+}
+#hair6:hover{
+    background-image: url('../images/hair7b.PNG'); /* Set the hover image */
+}
+#hair7{
+    background-image: url('../images/hair8a.PNG'); /* Set the initial image */
+}
+#hair7:hover{
+    background-image: url('../images/hair8b.PNG'); /* Set the hover image */
+}
+.box::before{
+    content:"Before";
+    position:absolute;
+    top:85%;
+    transform: translate(-50%,-50%);
+    color:var(--color1);
+    font-weight:bold;
+    font-size:30px;
+    font-family:Lucida Handwriting;
+    opacity:0;
+}
+.box:hover:before{
+    opacity:1;
+}

@@ -1,0 +1,46 @@
+.intro{
+    background-color: var(--color5);
+    background-image:url("../images/main1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:white;
+    height:80vh;
+    width:100%;
+}
+.socials{
+    background-color: black;
+    height:7%;
+    display:flex;
+    justify-content: right;
+}
+#instagram{
+    height:100%;
+    width:auto;
+    margin-right:15px;
+}
+#facebook{
+    height:100%;
+    width:auto;
+    margin-right:15px;
+}
+.address, .phone{
+    color:black;
+    height:35%;
+    display:flex;
+    font-size:30px;
+    font-family:Lucida Handwriting;
+    font-weight:bold;
+    align-items: center;
+    text-shadow: 1px 1px 2px pink;  
+}
+.filler{
+    height:33%;
+}
+.address{
+    padding-left:30px;
+}
+.phone{
+    justify-content: right;
+    padding-right:30px;
+    text-align: center;
+}

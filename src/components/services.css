@@ -1,0 +1,24 @@
+.services{
+    background-color: var(--color4);
+    color:black;
+    height:40vh;
+    font-family:Lucida Handwriting;
+    font-weight:bold;
+}
+#header{
+    text-align: center;
+    font-size:30px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+.sides{
+    text-align: center;
+    display:flex;
+    width:70%;
+}
+.side1, .side2{
+    font-size:20px; 
+    width:50%;
+}
